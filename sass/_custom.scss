@@ -1,0 +1,222 @@
+.navbar {
+  .fa{
+    font-size: 18px;
+    color: rgba(230,172,255,0.5);
+    &:hover {
+      color: white;
+    }
+  }
+}
+.item-img{
+  height: 200px;
+  width: 280px;
+}
+.list-item{
+  text-align: center;
+  a {
+    height: 70px;
+    padding-top: 20px;
+    color: black;
+    font-size: 20px;
+  }
+}
+.showcase{
+  background: url('../img/cover-ring.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 750px;
+  padding: 30px 0;
+  h1{
+    font-weight: lighter;
+    color: white;
+    letter-spacing: 5px;
+  }
+  .container{
+    height: 320px;
+    background: rgba(10,10,40,0.4);
+    margin-top: 300px;
+    padding: 20px 30px 30px 30px;
+    text-align: center;
+    position :relative;
+    -webkit-animation: mymove 3s infinite; /* Safari 4.0 - 8.0 */
+    -moz-animation:    mymove 5s infinite; /* Fx 5+ */
+    -o-animation:      mymove 5s infinite; /* Opera 12+ */
+    animation: mymove 3s infinite;
+    animation-iteration-count: 1;
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes mymove {
+        from {top: 200px;}
+        to {top: 0px;}
+    }
+    @-moz-keyframes mymove {
+        from {top: 200px;}
+        to {top: 0px;}
+    }
+    /* Standard syntax */
+    @keyframes mymove {
+        from {top: 200px;}
+        to {top: 0px;}
+    }
+  }
+
+    p{
+      color: white;
+      font-size: 18px;
+      font-weight: lighter;
+      line-height: 1.3;
+      letter-spacing: 3px;
+    }
+    a{
+      background-color: white;
+      color: black;
+      border: none;
+      &:hover{
+        background-color: $new-color;
+        color: white;
+        border: 2px solid black;
+      }
+    }
+  }
+
+
+.section-a{
+  padding: 60px 0;
+  margin-bottom: 70px;
+  background: transparent;
+  text-align: center;
+  color: black;
+  h2{
+    margin-top: -30px;
+    font-size: 24px;
+    font-weight: 300;
+    color: rgba(10,10,40,0.8);
+  }
+  .card {
+    border-radius: 3px;
+    padding: 30px 0;
+    background-color: #f5f5f5;
+    font-weight: 300;
+    .card-title{
+      font-size: 24px;
+      font-weight: 300;
+      color: black;
+    }
+    .card-body{
+      color: black;
+    }
+    .card-footer {
+      background: transparent;
+      a{
+        background: transparent;
+        color: black;
+        border: 1px solid black;
+        &:hover{
+         background-color: rgba(10,10,40,0.8);
+         border: none;
+         color: white;
+        }
+      }
+    }
+  }
+}
+
+.section-b{
+
+}
+.footer {
+  background-color: rgba(10,10,40,0.8);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  a {
+    color: white;
+  }
+  .container {
+    padding-top: 5px;
+    width: auto;
+    max-width: 680px;
+  }
+}
+.span12 {
+  margin-top: -50px;
+}
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+
+.dropdown.dropdown-lg .dropdown-menu {
+    margin-top: -1px;
+    padding: 6px 20px;
+}
+.input-group-btn .btn-group {
+    display: flex !important;
+}
+.btn-group .btn {
+    border-radius: 0;
+    margin-left: -1px;
+}
+.btn-group .btn:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.btn-group .form-horizontal .btn[type="submit"] {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+.form-group .form-control:last-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
