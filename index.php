@@ -23,7 +23,7 @@ require "includes/header.php"; ?>
 <div class="section-a">
   <div class="container">
     <div class="row">
-        <h2>FEATURED JEWELRY</h2>
+        <h2>FEATURED JEWELRY FOR YOU</h2>
       <div class="col-md-4">
           <div class="card">
           <img class="card-img-top" src="img/diamonds.jpg" alt="">
